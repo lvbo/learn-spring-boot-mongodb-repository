@@ -1,4 +1,4 @@
 spring:
     data:
         mongodb:
-            uri: mongodb://admin:admin@127.0.0.1:27017/
+            uri: mongodb://tiap:Tiap987M@172.16.68.76:27017/tiap-ems-basic-mgt
