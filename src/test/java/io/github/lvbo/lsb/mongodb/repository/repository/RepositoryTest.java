@@ -51,6 +51,11 @@ public class RepositoryTest {
     }
 
     @Test
+    public void deleteAll() {
+        userRepository.deleteAll();
+    }
+
+    @Test
     public void testPage() {
         Sort sort = new Sort(Sort.Direction.DESC, "id");
         Pageable pageable = PageRequest.of(2, 10, sort);

@@ -22,7 +22,7 @@ public class MongoConfig {
     @Bean
     public MongoDbFactory mongoFactory() throws Exception {
         MongoClient client = new MongoClient(new MongoClientURI(mongodbUri));
-        return new SimpleMongoDbFactory(client, "tiap-ems-basic-mgt");
+        return new SimpleMongoDbFactory(client, "test_db");
     }
 
     @Bean(name = "mongoTemplate")
